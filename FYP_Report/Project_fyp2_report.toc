@@ -1,0 +1,37 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {section}{Undertaking}{i}
+\contentsline {section}{Certificate}{ii}
+\contentsline {section}{Acknowledgement}{iii}
+\contentsline {section}{Abstract}{iv}
+\contentsline {section}{Contents}{v}
+\contentsline {section}{List of Figures}{vii}
+\contentsline {section}{List of Tables}{viii}
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}
+\contentsline {section}{\numberline {1.2}Present State of the Art}{2}
+\contentsline {section}{\numberline {1.3}Problem Statement}{2}
+\contentsline {section}{\numberline {1.4}Proposed Solution and Design Effort}{3}
+\contentsline {section}{\numberline {1.5}Report Organisation}{3}
+\contentsline {chapter}{\numberline {2}Basics of RADAR (RAdio Detection And Ranging)}{4}
+\contentsline {section}{\numberline {2.1}Advantages}{4}
+\contentsline {section}{\numberline {2.2}Miniature FMCW Radar}{5}
+\contentsline {section}{\numberline {2.3}Signal Processing}{5}
+\contentsline {subsection}{\numberline {2.3.1}Brief}{5}
+\contentsline {subsection}{\numberline {2.3.2}IF amplifier stage}{6}
+\contentsline {subsection}{\numberline {2.3.3}Analog to Digital Converter}{6}
+\contentsline {subsection}{\numberline {2.3.4}FPGA-Digital Signal Processing}{6}
+\contentsline {section}{\numberline {2.4}Component Research}{6}
+\contentsline {section}{\numberline {2.5}Chapter Summary}{6}
+\contentsline {chapter}{\numberline {3}Proposed Approach}{7}
+\contentsline {section}{\numberline {3.1}Candidate Designs}{7}
+\contentsline {section}{\numberline {3.2}Build Procedure}{7}
+\contentsline {section}{\numberline {3.3}Simulations}{7}
+\contentsline {section}{\numberline {3.4}Test Procedure}{7}
+\contentsline {section}{\numberline {3.5}Chapter Summary}{7}
+\contentsline {chapter}{\numberline {4}Experimental Results}{8}
+\contentsline {section}{\numberline {4.1}Complete System Operation}{8}
+\contentsline {section}{\numberline {4.2}Challenges Faced}{8}
+\contentsline {section}{\numberline {4.3}Chapter Summary}{8}
+\contentsline {chapter}{\numberline {5}Conclusions}{9}
+\contentsline {section}{\numberline {5.1}Future Work}{9}
+\contentsline {chapter}{References}{10}

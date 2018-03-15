@@ -1,0 +1,11 @@
+\begin{center}
+\section*{ABSTRACT}
+\addcontentsline{toc}{section}{Abstract}
+\end{center}
+\begin{Large}
+\begin{onehalfspace}
+A microwave RAdio Detection And Ranging sensor can detect targets through fog, smoke and some other solid objects. It is unlike camera, ultrasonic, LIght Detection And Ranging where these are limited to visual targets only. This makes microwave radar sensor very useful in applications like reconnaissance, search and rescue, Hazardous environment exploration, mapping, navigation and automotive. Most of the components are found in small footprints which can be easily mounted on a custom Print Circuit Board for size reduction.
+ 
+\hspace{0.5in} To detect range a simple un-modulated Doppler radar carrier is frequency modulated to produce a chirp signal using VCO and a function generator. The time difference corresponds to frequency difference obtained through mixer. Multiple objects means more frequency components which can be obtained through FFT. It requires an RF/microwave transceiver circuit and an ADC front-end circuit to obtain the digital data for further digital processing. To increase the speed of mapping by manifold (which is crucial in tactical operations), an FPGA would be used to sample data from ADC, compute FFT \& provide the final frequency components to the application processor. An application processor would be used to implement algorithms for calculating ranges, identify targets from data available through other sensors, source and channel coding for transmission and GUI. A lot of the implementations have a rotating radar which construct a 2-D field in azimuth plane using accumulation of 1-D points. This decreases the speed of mapping in time sensitive surveillance operation. In this proposal we would experiment a high speed short range scanning radar using array of two or more radar sensors providing data to a computer (Application processor + FPGA). This would allow to localize object in azimuth plane with enhanced mapping speed. This has advantage of having a small hardware (means better portability), fast scanning rate and better reliability.
+\end{onehalfspace}
+\end{Large}

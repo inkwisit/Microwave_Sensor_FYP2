@@ -1,0 +1,28 @@
+\begin{center}
+\section*{UNDERTAKING}
+\addcontentsline{toc}{section}{Undertaking}
+\end{center}
+\begin{Large}
+\begin{onehalfspace}
+We declare that the work presented in this project titled \textbf{Compact Short Range Frequency Modulated Continuous Wave Radar for Enhanced Vision in Unmanned Ground Vehicle} submitted to the Department of Electronics and Communication Engineering, Motilal Nehru National Institute of Technology Allahabad for the award of the \textbf{Bachelor of Technology} degree in Electronics and \& Communication Engineering is our original work. We have not plagiarized or submitted the same work for the award of any other degree. In case this undertaking is found incorrect, we accept that our degree may be unconditionally withdrawn.
+\end{onehalfspace}
+\end{Large}
+
+\begin{Large}
+\begin{onehalfspace}
+\begin{flushleft}
+\today \\
+Allahabad , INDIA
+\end{flushleft}
+\end{onehalfspace}
+\end{Large}
+
+\begin{Large}
+\begin{onehalfspace}
+\begin{flushright}
+Subha Sarkar \\[0.2in]
+Tushar Kumar \\[0.2in]
+Ashish Kumar Jha \\[0.1in]
+\end{flushright}
+\end{onehalfspace}
+\end{Large}

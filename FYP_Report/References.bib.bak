@@ -1,0 +1,41 @@
+@inproceedings{chrysikos2011attenuation,
+  title={Attenuation over distance for indoor propagation topologies at 2.4 GHz},
+  author={Chrysikos, Theofilos and Georgopoulos, Giannis and Kotsopoulos, Stavros},
+  booktitle={Computers and Communications (ISCC), 2011 IEEE Symposium on},
+  pages={329--334},
+  year={2011},
+  organization={IEEE}
+}
+
+@inproceedings{strohm2005development,
+  title={Development of future short range radar technology},
+  author={Strohm, Karl M and Bloecher, H-L and Schneider, Robert and Wenger, Josef},
+  booktitle={Radar Conference, 2005. EURAD 2005. European},
+  pages={165--168},
+  year={2005},
+  organization={IEEE}
+}
+
+@misc{charvatres,
+  title={RES. LL-003 Build a Small Radar System Capable of Sensing Range, Doppler, and Synthetic Aperture Radar Imaging, January IAP 2011},
+  author={Charvat, Gregory L and Williams, Jonathan and Fenn, Alan and Kogon, Steve and Herd, Jeffrey},
+  publisher={MIT OpenCourseWare: Massachusetts Institute of Technology), http://ocw. mit. edu/resources/res-ll-003-build-a-smallradar-system-capable-of-sensing-range-doppler-and-synthetic-apertureradar-imaging-january-iap-2011}
+}
+
+@article{uzun2005fpga,
+  title={FPGA implementations of fast Fourier transforms for real-time signal and image processing},
+  author={Uzun, Isa Servan and Amira, Abbes and Bouridane, Ahmed},
+  journal={IEE Proceedings-Vision, Image and Signal Processing},
+  volume={152},
+  number={3},
+  pages={283--296},
+  year={2005},
+  publisher={IET}
+}
+
+@article{fischette2009first,
+  title={First Time, Every Time--Practical Tips for Phase-Locked Loop Design},
+  author={Fischette, Dennis},
+  journal={IEEE Distinguished Lecturer Ser. PLL Tutorial},
+  year={2009}
+}

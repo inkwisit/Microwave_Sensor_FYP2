@@ -1,0 +1,5 @@
+This commands invoke (create) the primary screen in the server
+#x11vnc -display :0 & 
+
+This command access the primary screen of the server using a client
+$xtightvncviewer 192.168.7.1:1 

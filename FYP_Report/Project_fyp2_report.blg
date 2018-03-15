@@ -1,0 +1,15 @@
+[1] Config.pm:340> INFO - This is Biber 2.4
+[1] Config.pm:343> INFO - Logfile is 'Project_fyp2_report.blg'
+[154] biber:287> INFO - === Mon Jan 29, 2018, 10:15:27
+[413] Biber.pm:348> INFO - Reading 'Project_fyp2_report.bcf'
+[876] Biber.pm:742> INFO - Found 4 citekeys in bib section 0
+[894] Biber.pm:3151> INFO - Processing section 0
+[992] Biber.pm:3308> INFO - Looking for bibtex format file 'References.bib' for section 0
+[1013] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1027] bibtex.pm:974> INFO - Found BibTeX data source 'References.bib'
+[1357] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1358] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1358] Biber.pm:3028> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'en-US'
+[1358] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[1381] bbl.pm:519> INFO - Writing 'Project_fyp2_report.bbl' with encoding 'UTF-8'
+[1441] bbl.pm:615> INFO - Output to Project_fyp2_report.bbl

@@ -1,0 +1,9 @@
+\chapter{Experimental Results}
+\section{Complete System Operation}
+\section{Challenges Faced}
+Following are the challenges faced during development of this project :
+\begin{enumerate}
+\item Voltage controlled oscillator's non-linearity 
+\item PCB controlled impedance mitigation - We have no facility to produce controlled impedance boards nor the budget to order one. So using theoretical formula for microstrip and coplanar waveguides, we estimated the track width and spacing (which we could change) for a 50$\Omega$ characteristic impedance. 
+\end{enumerate}
+\section{Chapter Summary}

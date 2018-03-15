@@ -1,0 +1,170 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global}
+    \entry{charvatres}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=8cfe10e045b58ad8f847e55386d618d2}{%
+           family={Charvat},
+           family_i={C\bibinitperiod},
+           given={Gregory\bibnamedelima L},
+           given_i={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=7c3d809e6592a34d096000cf95a34ff9}{%
+           family={Williams},
+           family_i={W\bibinitperiod},
+           given={Jonathan},
+           given_i={J\bibinitperiod}}}%
+        {{hash=f59c54f54c24a745c2c8822d9cf91f9a}{%
+           family={Fenn},
+           family_i={F\bibinitperiod},
+           given={Alan},
+           given_i={A\bibinitperiod}}}%
+        {{hash=917b65c82b412551197535a60ff35444}{%
+           family={Kogon},
+           family_i={K\bibinitperiod},
+           given={Steve},
+           given_i={S\bibinitperiod}}}%
+        {{hash=91e39b618c108516aff911ca4a421cc8}{%
+           family={Herd},
+           family_i={H\bibinitperiod},
+           given={Jeffrey},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT OpenCourseWare: Massachusetts Institute of Technology), http://ocw. mit. edu/resources/res-ll-003-build-a-smallradar-system-capable-of-sensing-range-doppler-and-synthetic-apertureradar-imaging-january-iap-2011}%
+      }
+      \strng{namehash}{b048e5d1d996103730927f4269cafe30}
+      \strng{fullhash}{856791ff434a73404d68d18022f49328}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{RES. LL-003 Build a Small Radar System Capable of Sensing Range, Doppler, and Synthetic Aperture Radar Imaging, January IAP 2011}
+    \endentry
+    \entry{chrysikos2011attenuation}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=5b64d4e1b00c1c99c51449d4e41fc2a4}{%
+           family={Chrysikos},
+           family_i={C\bibinitperiod},
+           given={Theofilos},
+           given_i={T\bibinitperiod}}}%
+        {{hash=e9ac4dd692ed7727f8035378bce53f53}{%
+           family={Georgopoulos},
+           family_i={G\bibinitperiod},
+           given={Giannis},
+           given_i={G\bibinitperiod}}}%
+        {{hash=e691db1fa9c05f005e270a6d53556383}{%
+           family={Kotsopoulos},
+           family_i={K\bibinitperiod},
+           given={Stavros},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f46ace48b1f620d2b5fab3b3dca43e36}
+      \strng{fullhash}{f46ace48b1f620d2b5fab3b3dca43e36}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Computers and Communications (ISCC), 2011 IEEE Symposium on}
+      \field{title}{Attenuation over distance for indoor propagation topologies at 2.4 GHz}
+      \field{year}{2011}
+      \field{pages}{329\bibrangedash 334}
+      \range{pages}{6}
+    \endentry
+    \entry{strohm2005development}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=37f35a8024ec9f138c9e8efa315d9b38}{%
+           family={Strohm},
+           family_i={S\bibinitperiod},
+           given={Karl\bibnamedelima M},
+           given_i={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9790f13daa62af65dfd8aa26c5b07311}{%
+           family={Bloecher},
+           family_i={B\bibinitperiod},
+           given={H-L},
+           given_i={H\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=f4e3b669174599cb7a4ab9c160fead54}{%
+           family={Schneider},
+           family_i={S\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{hash=a13212e466e26a813e9b647057c2e24e}{%
+           family={Wenger},
+           family_i={W\bibinitperiod},
+           given={Josef},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{77c8e22bfc0c0f2838347fb917305f2e}
+      \strng{fullhash}{084cf77e90f07d6a653b8eb40445366c}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Radar Conference, 2005. EURAD 2005. European}
+      \field{title}{Development of future short range radar technology}
+      \field{year}{2005}
+      \field{pages}{165\bibrangedash 168}
+      \range{pages}{4}
+    \endentry
+    \entry{uzun2005fpga}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ab9f3ae6bd3b7a0cc8bf30587f5be129}{%
+           family={Uzun},
+           family_i={U\bibinitperiod},
+           given={Isa\bibnamedelima Servan},
+           given_i={I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a07af05fcb787ac463f786b7c6f4e153}{%
+           family={Amira},
+           family_i={A\bibinitperiod},
+           given={Abbes},
+           given_i={A\bibinitperiod}}}%
+        {{hash=35a081dd8ab873a7c812f48d6bf776a7}{%
+           family={Bouridane},
+           family_i={B\bibinitperiod},
+           given={Ahmed},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IET}%
+      }
+      \strng{namehash}{b12c3959dfd2b81562dcdb5e952247a2}
+      \strng{fullhash}{b12c3959dfd2b81562dcdb5e952247a2}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEE Proceedings-Vision, Image and Signal Processing}
+      \field{number}{3}
+      \field{title}{FPGA implementations of fast Fourier transforms for real-time signal and image processing}
+      \field{volume}{152}
+      \field{year}{2005}
+      \field{pages}{283\bibrangedash 296}
+      \range{pages}{14}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
