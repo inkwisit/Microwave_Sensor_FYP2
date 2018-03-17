@@ -17,21 +17,23 @@
 \contentsline {section}{\numberline {2.2}Miniature FMCW Radar}{5}
 \contentsline {section}{\numberline {2.3}Signal Processing}{5}
 \contentsline {subsection}{\numberline {2.3.1}Brief}{5}
-\contentsline {subsection}{\numberline {2.3.2}IF amplifier stage}{6}
-\contentsline {subsection}{\numberline {2.3.3}Analog to Digital Converter}{6}
-\contentsline {subsection}{\numberline {2.3.4}FPGA-Digital Signal Processing}{6}
-\contentsline {section}{\numberline {2.4}Component Research}{6}
-\contentsline {section}{\numberline {2.5}Chapter Summary}{6}
-\contentsline {chapter}{\numberline {3}Proposed Approach}{7}
-\contentsline {section}{\numberline {3.1}Candidate Designs}{7}
-\contentsline {section}{\numberline {3.2}Build Procedure}{7}
-\contentsline {section}{\numberline {3.3}Simulations}{7}
-\contentsline {section}{\numberline {3.4}Test Procedure}{7}
-\contentsline {section}{\numberline {3.5}Chapter Summary}{7}
-\contentsline {chapter}{\numberline {4}Experimental Results}{8}
-\contentsline {section}{\numberline {4.1}Complete System Operation}{8}
-\contentsline {section}{\numberline {4.2}Challenges Faced}{8}
-\contentsline {section}{\numberline {4.3}Chapter Summary}{8}
-\contentsline {chapter}{\numberline {5}Conclusions}{9}
-\contentsline {section}{\numberline {5.1}Future Work}{9}
-\contentsline {chapter}{References}{10}
+\contentsline {subsection}{\numberline {2.3.2}Transmitter stage}{6}
+\contentsline {subsection}{\numberline {2.3.3}Receiver stage}{6}
+\contentsline {subsection}{\numberline {2.3.4}IF amplifier stage}{7}
+\contentsline {subsection}{\numberline {2.3.5}Analog to Digital Converter}{7}
+\contentsline {subsection}{\numberline {2.3.6}FPGA-Digital Signal Processing}{7}
+\contentsline {section}{\numberline {2.4}Component Research}{7}
+\contentsline {section}{\numberline {2.5}Chapter Summary}{7}
+\contentsline {chapter}{\numberline {3}Proposed Approach}{8}
+\contentsline {section}{\numberline {3.1}Candidate Designs}{8}
+\contentsline {section}{\numberline {3.2}Build Procedure}{8}
+\contentsline {section}{\numberline {3.3}Simulations}{8}
+\contentsline {section}{\numberline {3.4}Test Procedure}{8}
+\contentsline {section}{\numberline {3.5}Chapter Summary}{8}
+\contentsline {chapter}{\numberline {4}Experimental Results}{9}
+\contentsline {section}{\numberline {4.1}Complete System Operation}{9}
+\contentsline {section}{\numberline {4.2}Challenges Faced}{9}
+\contentsline {section}{\numberline {4.3}Chapter Summary}{9}
+\contentsline {chapter}{\numberline {5}Conclusions}{10}
+\contentsline {section}{\numberline {5.1}Future Work}{10}
+\contentsline {chapter}{References}{11}

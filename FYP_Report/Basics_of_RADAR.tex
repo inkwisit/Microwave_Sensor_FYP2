@@ -17,15 +17,32 @@ Radar has many advantages compared to an attempt of visual observation:
 \item Radar detects and tracks moving objects, a high resolution imaging is possible, that results in an object recognition;
 \item Radar can operate unmanned, 24 hours a day, 7 days a week.
 \end{itemize}
+
 \section{Miniature FMCW Radar}
+
 \begin{figure}
-\includegraphics[width = 7in]{radar_classification.pdf}
+\centering
+\includegraphics[width = 6in]{radar_classification.pdf}
 \caption{Radar classification (The project belongs to the highlighted category)}
 \end{figure}	
 
 The configuration of radar is bistatic.
 \section{Signal Processing}
 		\subsection{Brief} The signal processing chain starts from the IF amplifier. An ADC samples the IF signal and send the data to the FPGA (DSP). The FPGA is the Cyclone V SoC from Intel (Altera). The FPGA performs the real time FFT to provide the frequency components.
+		\subsection{Transmitter stage}
+		The power amplifier is responsible for providing maximum power to the antenna. Unfortunately due to certain factors like antenna gain, impedance mismatch, and other losses which are related to antenna efficiency (conduction losses, dielectric losses).	
+		The phase noise of the VCO should be as minimum as possible for better resolution. If not so then the phase noise tail would corrupt the wanted signal reflected back from the target.
+		
+\begin{figure}
+\centering
+\includegraphics[width=4in]{Synergy_Microwave_Corporation_Jitter_and_Phase_Noise.jpg}
+\caption{Phase noise and jitter}
+Source : Synergy Microwave Corporation
+\end{figure} 
+
+		\subsection{Receiver stage}
+		Typical received signal power is found to be around -150dBm to -30dBm. So these are needed to be amplified before being fed into mixer. A low noise amplifier is required for this purpose. 
+		Phase noise is a key parameter for transceivers
 		\subsection{IF amplifier stage}
 		\subsection{Analog to Digital Converter}
 		\subsection{FPGA-Digital Signal Processing}
@@ -49,10 +66,11 @@ X_C = \frac{1}{\omega{C}} = \frac{1}{2\pi{f}C} << Z_0 \\
 X_L = \omega{L} = 2\pi{f}L >> Z_0
 \end{eqnarray}
 \begin{itemize}
-\item P1dB (1dB Gain compression power) in dBm - 17.9dBm
+\item P1dB in dBm - 17.9dBm. 1 dB compression point defines the output level at which the amplifier's gain is 1 dB less than the small signal gain, or is compressed by 1 dB (P1dB). 
 \item OIP3 in dBm - 32dBm
 \item NF - 1.3dB
 \item Gain - 14dB
+\item IP3 (dBm) - Two-Tone Third-order intercept point 
 \end{itemize}
 \end{enumerate}
 
