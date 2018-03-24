@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, /media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/Adder.v
+source_file = 1, /media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/db/Adder.cbx.xml
+design_name = Adder
+instance = comp, \s~output , s~output, Adder, 1
+instance = comp, \c~output , c~output, Adder, 1
+instance = comp, \b~input , b~input, Adder, 1
+instance = comp, \a~input , a~input, Adder, 1
+instance = comp, \Add0~0 , Add0~0, Adder, 1
+instance = comp, \Add0~1 , Add0~1, Adder, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Adder, 1

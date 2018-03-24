@@ -1,6 +1,26 @@
 \chapter{Proposed Approach}
+\section{Radar link budget}
+Radar performance is governed by the link budget equations, which determines what levels of signals are available for detection. A simplified version of the link budget equation is given below :
+\begin{equation}
+P_r = \frac{P_tG^2\sigma{}\lambda^2\tau}{(4\pi)^3R^4}
+\end{equation}
+$P_t$ = Peak transmit power = 15dBm\\
+$G$ = (Assuming similar antennas) Gain of the antenna = 10dBi\\
+$\sigma$ = Radar cross section or area of the target = $1m^2$\\
+$\lambda$ = Radar wavelength = $12.5cm$\\
+$\tau$ = Duty cycle of the transmitter = 1\\
+$R$ = Range of the target = 1m to 20m\\
+
+Receiver sensitivity is a measure of the ability of a receiver to demodulate and get information from a weak signal. We quantify sensitivity as the lowest signal power level from which we can get useful information.
+
+Sensitivity = 
+Assuming final noise figure till the ADC is 5, the minimum sensitivity is -120dBm. 
 \section{Candidate Designs}
 \section{Build Procedure}
+	\subsection{Linearity of VCO}
+	The VCO that is being used is having a non-linear response with respect to the tuning voltage. So a Direct digital synthesis (DDS) technique is being used for providing a unique voltage-time relationship that would result in linear response of the VCO. The DDS is being implemented using a 10-bit R-2R Digital to Analog Converter with DDS core synthesised in FPGA fabric. 
+	\subsection{Sampling of IF stage}
+	The noise floor of the reciever front-end (from Antenna to ADC) should be at higher level than the ADC noise floor. If it is not so then the spectral noise floor shown in signal analyser would be solely of ADC not the receiver front. 
 \section{Simulations}
 \section{Test Procedure}
 \section{Chapter Summary}

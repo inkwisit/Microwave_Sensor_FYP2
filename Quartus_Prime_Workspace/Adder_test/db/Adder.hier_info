@@ -1,0 +1,7 @@
+|Adder
+a => Add0.IN1
+b => Add0.IN2
+s << Add0.DB_MAX_OUTPUT_PORT_TYPE
+c << Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+

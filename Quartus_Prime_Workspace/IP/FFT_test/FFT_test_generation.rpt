@@ -1,0 +1,97 @@
+Info: Starting: Create simulation model
+Info: qsys-generate "/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test.qsys" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test/simulation" --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading IP/FFT_test.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 17.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: FFT_test.fft_ii_0: Radix-4 digit reverse implied
+Info: FFT_test: Generating FFT_test "FFT_test" for SIM_VERILOG
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twrfp5.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twqfp1.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twqfp2.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twqfp3.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twqfp4.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twqfp5.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twifp1.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twifp2.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twrfp1.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twifp3.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twrfp2.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twifp4.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twrfp3.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twrfp4.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twifp5.hex
+Info: fft_ii_0: "FFT_test" instantiated altera_fft_ii "fft_ii_0"
+Info: FFT_test: Done "FFT_test" with 2 modules, 273 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd="/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test/FFT_test.spd" --output-directory="/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test/simulation/" --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test/FFT_test.spd --output-directory=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in /media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in /media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in /media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test.qsys" --block-symbol-file --output-directory="/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test" --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading IP/FFT_test.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 17.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: FFT_test.fft_ii_0: Radix-4 digit reverse implied
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test.qsys" --synthesis=VERILOG --greybox --output-directory="/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/Quartus_Prime_Workspace/IP/FFT_test/synthesis" --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading IP/FFT_test.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 17.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: FFT_test.fft_ii_0: Radix-4 digit reverse implied
+Info: FFT_test: Generating FFT_test "FFT_test" for QUARTUS_SYNTH
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twrfp5.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twqfp1.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twqfp2.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twqfp3.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twqfp4.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twqfp5.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twifp1.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twifp2.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twrfp1.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twifp3.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twrfp2.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twifp4.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twrfp3.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twrfp4.hex
+Info: fft_ii_0: --- add file: FFT_test_fft_ii_0_twifp5.hex
+Info: fft_ii_0: "FFT_test" instantiated altera_fft_ii "fft_ii_0"
+Info: FFT_test: Done "FFT_test" with 2 modules, 73 files
+Info: Generating third-party timing and resource estimation model ...
+Info: Done generating third-party timing and resource estimation model.
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

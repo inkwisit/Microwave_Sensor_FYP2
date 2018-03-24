@@ -44,6 +44,8 @@ Source : Synergy Microwave Corporation
 		Typical received signal power is found to be around -150dBm to -30dBm. So these are needed to be amplified before being fed into mixer. A low noise amplifier is required for this purpose. 
 		Phase noise is a key parameter for transceivers
 		\subsection{IF amplifier stage}
+		Bandwidth B, BW or $\Delta{f}$ is the difference between the upper and lower cut-off frequencies of a radar receiver, and is typically measured in hertz. In case of a baseband channel or video signal, the bandwidth is equal to its upper cut-off frequency. In a Radar receiver the bandwidth is mostly determined by the IF filter stages. The receiver must be able to process the signal bandwidth of the backscattered electromagnetic radiation from target.
+The wider the bandwidth, the greater the degree of noise that will be input to the receiver. Since noise exists at all frequencies, the broader the frequency range to which the receiver bandpass filters are tuned, then the higher the intensity level of the noise and the lower the signal-to-noise ratio, and so the receivers sensibility.
 		\subsection{Analog to Digital Converter}
 		\subsection{FPGA-Digital Signal Processing}
 \section{Component Research}
@@ -51,14 +53,15 @@ Components selected here are referenced from MIT Lincoln Laboratory project of F
 Following are the part list and description :
 \begin{enumerate}
 \item \textbf{SMA} Connector  : As opposed to BNC connector SMA supports wider bandwidth from 0-18GHz. The inside tapered structure reduces the mismatch providing very low return loss.
-\item \textbf{MAX2751} (VCO) -
+\item \textbf{HMC385/6} (VCO) -
 \begin{itemize}
 \item Output Power : -2dBm (After power on)
 \item Phase noise : -92dBc @ 100KHz offset
 \end{itemize}
-\item \textbf{LT5512} (Mixer) :
+\item \textbf{HMC688/9} (Mixer) :
 \begin{itemize}
-\item IF frequency range - 1KHz to 3GHz
+\item IF frequency range - DC to 700MHz
+\item Type - Passive (Due to higher linearity than the active mixer)
 \end{itemize}
 \item \textbf{MGA62563} (Low Noise Amplifier) : A good LNA has high amplification, low noise figure (NF), and should have a large compression point (P1dB). The calculation for Bias Tee (Diplexer) required for providing $V_{bias}$ is as follows - 
 \begin{eqnarray}
