@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_PCB_Design/DAQ/DAQ.sch</source>
+    <date>Wed Mar 28 00:15:54 2018</date>
+    <tool>Eeschema 4.0.2+dfsg1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DAQ.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P11">
+      <value>Connection with FPGA</value>
+      <libsource lib="conn" part="CONN_02X20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB0C942</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>SN74LVTH162244</value>
+      <libsource lib="sn74lvth162244" part="SN74LVTH162244"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB49AFA</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>SMA</value>
+      <libsource lib="sma" part="SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB49C4C</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>SMA</value>
+      <libsource lib="sma" part="SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB49DA8</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>SMA</value>
+      <libsource lib="sma" part="SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB49E2E</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>4.7uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4A91D</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4A973</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>C</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4AE97</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ADC10065</value>
+      <libsource lib="adc10065" part="ADC10065"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4CDD8</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4CE82</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SN74LVTH162244</value>
+      <libsource lib="sn74lvth162244" part="SN74LVTH162244"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB536C9</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>10u</value>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB56118</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>10u</value>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB56189</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>5V-MAIN</value>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5629E</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>AMS1117-ADJ</value>
+      <libsource lib="regul" part="AP1117"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB584D8</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB58911</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MIC29302</value>
+      <libsource lib="mic29302" part="MIC29302"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB54395</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>220</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB565C9</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>180</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5663A</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100uF</value>
+      <footprint>Capacitors_SMD:c_elec_6.3x5.3</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB57A43</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>Jumper</value>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5A699</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5BEDF</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5C017</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5C5BA</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5C5C0</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5C742</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5C748</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5C74E</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5C754</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5CC90</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5CC96</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5CC9C</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5CCA2</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5D86A</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5DD1C</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5DDF8</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5DEDB</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5DFBD</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5E287</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5E43B</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5E63A</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5E7FE</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5E93C</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5EA34</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB63ACD</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB63BCB</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM358</value>
+      <libsource lib="linear" part="LM358"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB68013</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB7670C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB76831</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>SMA</value>
+      <libsource lib="sma" part="SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB774BA</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>FS_SEL_JUMPER</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB799C7</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>MODE_JUMPER</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB7AA35</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>C</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB7F6C6</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>C</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB7F7D9</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>C</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB7F8B0</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>EXTRA_CONN_HEADERS</value>
+      <libsource lib="conn" part="CONN_02X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB82123</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB7570F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>THS4522</value>
+      <libsource lib="ths4522" part="THS4522"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB95F6A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5D938</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.01u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5D8C7</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.01u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5D157</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5C6AA</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB549A1</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB546F0</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>220</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB54674</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>220</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5460D</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB52ABD</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB52A3D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>270p</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB5274F</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB52234</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB521DD</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB52095</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB52006</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.01u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB4D890</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>270p</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABA2B87</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>270p</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABA537E</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>270p</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABA62E9</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>270p</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABA6926</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABAA32B</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.01u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABAA58F</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>50</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABAE213</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>50</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABAE2F8</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB219C</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB514D</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>180p</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB5F98</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>180p</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB6085</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>180p</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB6615</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>180p</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB6702</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB8B45</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>1.5K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB58896</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>220</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABC09EF</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>AD812</value>
+      <libsource lib="linear" part="LM358"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABC8124</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABCA180</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABCA29F</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABCBA8F</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABCC571</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>TPS65131_EVM</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABD0F2C</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABD2D2A</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>10K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABD306A</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>10u</value>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABD4896</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10u</value>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABD49A9</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100u</value>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABA4193</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100u</value>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABA431A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABA94C2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="adc10065" part="ADC10065">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADC10065</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLK" type="input"/>
+        <pin num="2" name="VDDA" type="input"/>
+        <pin num="3" name="VSSA" type="input"/>
+        <pin num="4" name="VCOM" type="input"/>
+        <pin num="5" name="IRS" type="input"/>
+        <pin num="6" name="Vref" type="input"/>
+        <pin num="7" name="VrefT" type="input"/>
+        <pin num="8" name="VrefB" type="input"/>
+        <pin num="9" name="VDDA" type="input"/>
+        <pin num="10" name="VDDA" type="input"/>
+        <pin num="11" name="VSSA" type="input"/>
+        <pin num="12" name="VIN-" type="input"/>
+        <pin num="13" name="VIN+" type="input"/>
+        <pin num="14" name="VSSA" type="input"/>
+        <pin num="15" name="DF" type="input"/>
+        <pin num="16" name="D9" type="input"/>
+        <pin num="17" name="D8" type="input"/>
+        <pin num="18" name="D7" type="input"/>
+        <pin num="19" name="D6" type="input"/>
+        <pin num="20" name="D5" type="input"/>
+        <pin num="21" name="VSSIO" type="input"/>
+        <pin num="22" name="VDDIO" type="input"/>
+        <pin num="23" name="D4" type="input"/>
+        <pin num="24" name="D3" type="input"/>
+        <pin num="25" name="D2" type="input"/>
+        <pin num="26" name="D1" type="input"/>
+        <pin num="27" name="D0" type="input"/>
+        <pin num="28" name="STBY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="AP1117">
+      <aliases>
+        <alias>AP1117D15</alias>
+        <alias>AP1117D18</alias>
+        <alias>AP1117D25</alias>
+        <alias>AP1117D33</alias>
+        <alias>AP1117D50</alias>
+        <alias>AP1117E15</alias>
+        <alias>AP1117E18</alias>
+        <alias>AP1117E25</alias>
+        <alias>AP1117E33</alias>
+        <alias>AP1117E50</alias>
+        <alias>AP1117K15</alias>
+        <alias>AP1117K18</alias>
+        <alias>AP1117K25</alias>
+        <alias>AP1117K33</alias>
+        <alias>AP1117K50</alias>
+        <alias>AP1117T15</alias>
+        <alias>AP1117T18</alias>
+        <alias>AP1117T25</alias>
+        <alias>AP1117T33</alias>
+        <alias>AP1117T50</alias>
+        <alias>AP1117Y15</alias>
+        <alias>AP1117Y18</alias>
+        <alias>AP1117Y25</alias>
+        <alias>AP1117Y33</alias>
+        <alias>AP1117Y50</alias>
+      </aliases>
+      <description>Fixed/Adjustable 1A Low Dropout regulator, Positive</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT223</fp>
+        <fp>SOT89-3</fp>
+        <fp>TO220-3</fp>
+        <fp>TO252</fp>
+        <fp>TO263</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND/ADJ" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X05">
+      <description>Connector 02x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X20">
+      <description>Connector 02x20</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X20</fp>
+        <fp>Pin_Header_Angled_2X20</fp>
+        <fp>Socket_Strip_Straight_2X20</fp>
+        <fp>Socket_Strip_Angled_2X20</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+        <pin num="29" name="P29" type="passive"/>
+        <pin num="30" name="P30" type="passive"/>
+        <pin num="31" name="P31" type="passive"/>
+        <pin num="32" name="P32" type="passive"/>
+        <pin num="33" name="P33" type="passive"/>
+        <pin num="34" name="P34" type="passive"/>
+        <pin num="35" name="P35" type="passive"/>
+        <pin num="36" name="P36" type="passive"/>
+        <pin num="37" name="P37" type="passive"/>
+        <pin num="38" name="P38" type="passive"/>
+        <pin num="39" name="P39" type="passive"/>
+        <pin num="40" name="P40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>SMD*_Pol</fp>
+        <fp>c_elec*</fp>
+        <fp>C*elec</fp>
+        <fp>TantalC*</fp>
+        <fp>Elko*</fp>
+        <fp>CP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM358">
+      <aliases>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>LM358N</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+      </aliases>
+      <description>Dual Op amp (low power)</description>
+      <docs>ns/lm158.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="mic29302" part="MIC29302">
+      <description>Fixed/Adjustable 1A Low Dropout regulator, Positive</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT223</fp>
+        <fp>SOT89-3</fp>
+        <fp>TO220-3</fp>
+        <fp>TO252</fp>
+        <fp>TO263</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC29302</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="power_in"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VO" type="power_out"/>
+        <pin num="5" name="ADJ" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sma" part="SMA">
+      <footprints>
+        <fp>BNC_*</fp>
+        <fp>bnc</fp>
+        <fp>bnc-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sn74lvth162244" part="SN74LVTH162244">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVTH162244</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1OE_B" type="input"/>
+        <pin num="2" name="1Y1" type="input"/>
+        <pin num="3" name="1Y2" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="1Y3" type="input"/>
+        <pin num="6" name="1Y4" type="input"/>
+        <pin num="7" name="VCC" type="input"/>
+        <pin num="8" name="2Y1" type="input"/>
+        <pin num="9" name="2Y2" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="2Y3" type="input"/>
+        <pin num="12" name="2Y4" type="input"/>
+        <pin num="13" name="3Y1" type="input"/>
+        <pin num="14" name="3Y2" type="input"/>
+        <pin num="15" name="GND" type="input"/>
+        <pin num="16" name="3Y3" type="input"/>
+        <pin num="17" name="3Y4" type="input"/>
+        <pin num="18" name="VCC" type="input"/>
+        <pin num="19" name="4Y1" type="input"/>
+        <pin num="20" name="4Y2" type="input"/>
+        <pin num="21" name="GND" type="input"/>
+        <pin num="22" name="4Y3" type="input"/>
+        <pin num="23" name="4Y4" type="input"/>
+        <pin num="24" name="4OE_B" type="input"/>
+        <pin num="25" name="3OE_B" type="input"/>
+        <pin num="26" name="4A4" type="input"/>
+        <pin num="27" name="4A3" type="input"/>
+        <pin num="28" name="GND" type="input"/>
+        <pin num="29" name="4A2" type="input"/>
+        <pin num="30" name="4A1" type="input"/>
+        <pin num="31" name="VCC" type="input"/>
+        <pin num="32" name="3A4" type="input"/>
+        <pin num="33" name="3A3" type="input"/>
+        <pin num="34" name="GND" type="input"/>
+        <pin num="35" name="3A2" type="input"/>
+        <pin num="36" name="3A1" type="input"/>
+        <pin num="37" name="2A4" type="input"/>
+        <pin num="38" name="2A3" type="input"/>
+        <pin num="39" name="GND" type="input"/>
+        <pin num="40" name="2A2" type="input"/>
+        <pin num="41" name="2A1" type="input"/>
+        <pin num="42" name="VCC" type="input"/>
+        <pin num="43" name="1A4" type="input"/>
+        <pin num="44" name="1A3" type="input"/>
+        <pin num="45" name="GND" type="input"/>
+        <pin num="46" name="1A2" type="input"/>
+        <pin num="47" name="1A1" type="input"/>
+        <pin num="48" name="2OE_B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ths4522" part="THS4522">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">THS4522</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD_B" type="input"/>
+        <pin num="2" name="+" type="input"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="Vocm" type="input"/>
+        <pin num="5" name="PD_B" type="input"/>
+        <pin num="6" name="+" type="input"/>
+        <pin num="7" name="-" type="input"/>
+        <pin num="8" name="Vocm" type="input"/>
+        <pin num="9" name="VS+" type="input"/>
+        <pin num="10" name="VOUT+" type="input"/>
+        <pin num="11" name="VOUT-" type="input"/>
+        <pin num="12" name="VS-" type="input"/>
+        <pin num="13" name="VS+" type="input"/>
+        <pin num="14" name="VOUT+" type="input"/>
+        <pin num="15" name="VOUT-" type="input"/>
+        <pin num="16" name="VS-" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="adc10065">
+      <uri>/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/adc10065.lib</uri>
+    </library>
+    <library logical="sma">
+      <uri>/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/sma.lib</uri>
+    </library>
+    <library logical="sn74lvth162244">
+      <uri>/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/sn74lvth162244.lib</uri>
+    </library>
+    <library logical="mic29302">
+      <uri>/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/mic29302.lib</uri>
+    </library>
+    <library logical="ths4522">
+      <uri>/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/ths4522.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ADC_DATA3">
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="2" name="/ADC_DATA_00">
+      <node ref="P11" pin="31"/>
+    </net>
+    <net code="3" name="/ADC_DATA_07">
+      <node ref="P11" pin="38"/>
+    </net>
+    <net code="4" name="/ADC_DATA_09">
+      <node ref="P11" pin="40"/>
+    </net>
+    <net code="5" name="/ADC_DATA0">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="6" name="/ADC_DATA1">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="7" name="/ADC_DATA2">
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="8" name="/ADC_DATA4">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="9" name="/ADC_DATA5">
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="10" name="/ADC_DATA6">
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="11" name="/ADC_DATA7">
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="12" name="/ADC_DATA8">
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="13" name="/ADC_DATA9">
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="14" name="/R2R_DATA_00">
+      <node ref="R32" pin="1"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="15" name="/R2R_DATA_01">
+      <node ref="R31" pin="1"/>
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="16" name="/R2R_DATA_02">
+      <node ref="U3" pin="20"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="17" name="/DAC_DATA_08">
+      <node ref="P11" pin="21"/>
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="18" name="/DAC_DATA_00">
+      <node ref="U3" pin="26"/>
+      <node ref="P11" pin="13"/>
+    </net>
+    <net code="19" name="/DAC_DATA_01">
+      <node ref="U3" pin="27"/>
+      <node ref="P11" pin="14"/>
+    </net>
+    <net code="20" name="/DAC_DATA_02">
+      <node ref="P11" pin="15"/>
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="21" name="/DAC_DATA_03">
+      <node ref="P11" pin="16"/>
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="22" name="/DAC_DATA_04">
+      <node ref="P11" pin="17"/>
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="23" name="/DAC_DATA_05">
+      <node ref="P11" pin="18"/>
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="24" name="/DAC_DATA_06">
+      <node ref="P11" pin="19"/>
+      <node ref="U3" pin="35"/>
+    </net>
+    <net code="25" name="/DAC_DATA_07">
+      <node ref="P11" pin="20"/>
+      <node ref="U3" pin="36"/>
+    </net>
+    <net code="26" name="/ADC_DATA_05">
+      <node ref="P11" pin="36"/>
+    </net>
+    <net code="27" name="/DAC_DATA_09">
+      <node ref="P11" pin="22"/>
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="28" name="/DAC_DATA_10">
+      <node ref="P11" pin="23"/>
+      <node ref="U3" pin="40"/>
+    </net>
+    <net code="29" name="/DAC_DATA_11">
+      <node ref="P11" pin="24"/>
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="30" name="Net-(R14-Pad2)">
+      <node ref="R28" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="31" name="Net-(R13-Pad2)">
+      <node ref="R14" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="32" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="33" name="Net-(R11-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="34" name="Net-(R10-Pad2)">
+      <node ref="R24" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R10-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="36" name="Net-(R17-Pad2)">
+      <node ref="R31" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="37" name="VAA">
+      <node ref="U2" pin="9"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U2" pin="13"/>
+      <node ref="C6" pin="2"/>
+      <node ref="P6" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="38" name="Net-(R16-Pad2)">
+      <node ref="R30" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="39" name="Net-(R15-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="40" name="Net-(P1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="41" name="Net-(P3-Pad2)">
+      <node ref="U4" pin="5"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="42" name="Net-(P5-Pad2)">
+      <node ref="U4" pin="15"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="43" name="/ADC_DATA_01">
+      <node ref="P11" pin="32"/>
+    </net>
+    <net code="44" name="/ADC_DATA_02">
+      <node ref="P11" pin="33"/>
+    </net>
+    <net code="45" name="/ADC_DATA_04">
+      <node ref="P11" pin="35"/>
+    </net>
+    <net code="46" name="/ADC_DATA_06">
+      <node ref="P11" pin="37"/>
+    </net>
+    <net code="47" name="/ADC_DATA_08">
+      <node ref="P11" pin="39"/>
+    </net>
+    <net code="48" name="/ADC_DATA_03">
+      <node ref="P11" pin="34"/>
+    </net>
+    <net code="49" name="Net-(R21-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="50" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="51" name="Net-(R18-Pad2)">
+      <node ref="R32" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="52" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="53" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="54" name="Net-(C3-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="55" name="Net-(C2-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="56" name="Net-(C18-Pad1)">
+      <node ref="R41" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R37" pin="1"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="57" name="Net-(C11-Pad2)">
+      <node ref="R37" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="R35" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="58" name="GND">
+      <node ref="C5" pin="2"/>
+      <node ref="R45" pin="2"/>
+      <node ref="R53" pin="2"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U4" pin="28"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U3" pin="45"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="28"/>
+      <node ref="U3" pin="25"/>
+      <node ref="U3" pin="48"/>
+      <node ref="U3" pin="21"/>
+      <node ref="U3" pin="39"/>
+      <node ref="U3" pin="34"/>
+      <node ref="U3" pin="24"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="U3" pin="10"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U2" pin="12"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="P5" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U6" pin="10"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="P11" pin="30"/>
+      <node ref="P11" pin="12"/>
+      <node ref="U6" pin="21"/>
+      <node ref="U6" pin="24"/>
+      <node ref="U6" pin="34"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C30" pin="2"/>
+      <node ref="P9" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U6" pin="39"/>
+      <node ref="P8" pin="2"/>
+      <node ref="P7" pin="2"/>
+      <node ref="U6" pin="15"/>
+      <node ref="U6" pin="25"/>
+      <node ref="U6" pin="45"/>
+      <node ref="U6" pin="28"/>
+      <node ref="U6" pin="48"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="21"/>
+      <node ref="U4" pin="14"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R47" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R46" pin="2"/>
+    </net>
+    <net code="59" name="Net-(P7-Pad1)">
+      <node ref="P7" pin="1"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="60" name="Net-(P8-Pad1)">
+      <node ref="U7" pin="5"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="61" name="Net-(R42-Pad1)">
+      <node ref="U4" pin="13"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="62" name="Net-(R41-Pad1)">
+      <node ref="R41" pin="1"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="63" name="Net-(C3-Pad1)">
+      <node ref="C9" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C9-Pad1)">
+      <node ref="U2" pin="14"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="65" name="Net-(C2-Pad1)">
+      <node ref="C8" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="66" name="Net-(C8-Pad1)">
+      <node ref="U2" pin="15"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R35" pin="2"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="67" name="/ADC_CLOCK">
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="68" name="/ADC_CLK">
+      <node ref="P11" pin="27"/>
+      <node ref="U3" pin="47"/>
+    </net>
+    <net code="69" name="Net-(C20-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="70" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="71" name="Net-(C22-Pad1)">
+      <node ref="U4" pin="8"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="72" name="/R2R_DATA_09">
+      <node ref="R23" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="73" name="/R2R_DATA_11">
+      <node ref="R21" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="74" name="/R2R_DATA_10">
+      <node ref="U3" pin="9"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="75" name="/R2R_DATA_08">
+      <node ref="U3" pin="12"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="76" name="/R2R_DATA_07">
+      <node ref="R25" pin="1"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="77" name="/R2R_DATA_06">
+      <node ref="R26" pin="1"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="78" name="/R2R_DATA_05">
+      <node ref="R27" pin="1"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="79" name="/R2R_DATA_04">
+      <node ref="U3" pin="17"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="80" name="/R2R_DATA_03">
+      <node ref="R29" pin="1"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="81" name="/CONN_BAK7">
+      <node ref="P11" pin="8"/>
+      <node ref="P10" pin="8"/>
+    </net>
+    <net code="82" name="/CONN_BAK0">
+      <node ref="P11" pin="1"/>
+      <node ref="P10" pin="1"/>
+    </net>
+    <net code="83" name="/CONN_BAK9">
+      <node ref="P11" pin="10"/>
+      <node ref="P10" pin="10"/>
+    </net>
+    <net code="84" name="/CONN_BAK2">
+      <node ref="P10" pin="3"/>
+      <node ref="P11" pin="3"/>
+    </net>
+    <net code="85" name="/CONN_BAK4">
+      <node ref="P10" pin="5"/>
+      <node ref="P11" pin="5"/>
+    </net>
+    <net code="86" name="/CONN_BAK6">
+      <node ref="P10" pin="7"/>
+      <node ref="P11" pin="7"/>
+    </net>
+    <net code="87" name="/CONN_BAK8">
+      <node ref="P11" pin="9"/>
+      <node ref="P10" pin="9"/>
+    </net>
+    <net code="88" name="/CONN_BAK1">
+      <node ref="P11" pin="2"/>
+      <node ref="P10" pin="2"/>
+    </net>
+    <net code="89" name="/CONN_BAK3">
+      <node ref="P11" pin="4"/>
+      <node ref="P10" pin="4"/>
+    </net>
+    <net code="90" name="/CONN_BAK5">
+      <node ref="P11" pin="6"/>
+      <node ref="P10" pin="6"/>
+    </net>
+    <net code="91" name="Net-(R49-Pad1)">
+      <node ref="R49" pin="1"/>
+      <node ref="R51" pin="2"/>
+    </net>
+    <net code="92" name="Net-(R47-Pad1)">
+      <node ref="U7" pin="6"/>
+      <node ref="R49" pin="2"/>
+      <node ref="R47" pin="1"/>
+    </net>
+    <net code="93" name="/V_SIG_POS">
+      <node ref="R3" pin="2"/>
+      <node ref="U7" pin="1"/>
+      <node ref="R50" pin="1"/>
+    </net>
+    <net code="94" name="Net-(R46-Pad1)">
+      <node ref="R48" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="95" name="-12VA">
+      <node ref="C23" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="96" name="+12VA">
+      <node ref="U1" pin="8"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="97" name="Net-(R43-Pad2)">
+      <node ref="R43" pin="2"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="98" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="99" name="Net-(C12-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="100" name="Net-(R48-Pad1)">
+      <node ref="R50" pin="2"/>
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="101" name="Net-(C28-Pad1)">
+      <node ref="C28" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="102" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="103" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="104" name="Net-(U6-Pad16)">
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="105" name="Net-(P11-Pad25)">
+      <node ref="P11" pin="25"/>
+    </net>
+    <net code="106" name="Net-(P11-Pad26)">
+      <node ref="P11" pin="26"/>
+    </net>
+    <net code="107" name="Net-(P11-Pad28)">
+      <node ref="P11" pin="28"/>
+    </net>
+    <net code="108" name="Net-(U6-Pad23)">
+      <node ref="U6" pin="23"/>
+    </net>
+    <net code="109" name="Net-(U6-Pad22)">
+      <node ref="U6" pin="22"/>
+    </net>
+    <net code="110" name="Net-(U6-Pad20)">
+      <node ref="U6" pin="20"/>
+    </net>
+    <net code="111" name="Net-(U6-Pad19)">
+      <node ref="U6" pin="19"/>
+    </net>
+    <net code="112" name="Net-(U6-Pad17)">
+      <node ref="U6" pin="17"/>
+    </net>
+    <net code="113" name="Net-(U6-Pad26)">
+      <node ref="U6" pin="26"/>
+    </net>
+    <net code="114" name="Net-(U6-Pad27)">
+      <node ref="U6" pin="27"/>
+    </net>
+    <net code="115" name="Net-(U6-Pad29)">
+      <node ref="U6" pin="29"/>
+    </net>
+    <net code="116" name="Net-(U6-Pad30)">
+      <node ref="U6" pin="30"/>
+    </net>
+    <net code="117" name="Net-(U6-Pad32)">
+      <node ref="U6" pin="32"/>
+    </net>
+    <net code="118" name="Net-(U6-Pad33)">
+      <node ref="U6" pin="33"/>
+    </net>
+    <net code="119" name="Net-(L2-Pad2)">
+      <node ref="P2" pin="3"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="120" name="/V_SIG_NEG">
+      <node ref="R51" pin="1"/>
+      <node ref="U7" pin="7"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="121" name="/VCOM">
+      <node ref="U2" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="122" name="VDD">
+      <node ref="U4" pin="9"/>
+      <node ref="P3" pin="3"/>
+      <node ref="P5" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U4" pin="22"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="42"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U6" pin="18"/>
+      <node ref="U3" pin="31"/>
+      <node ref="R52" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U6" pin="31"/>
+      <node ref="U6" pin="42"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="123" name="Net-(R52-Pad2)">
+      <node ref="U8" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="124" name="+5VA">
+      <node ref="C27" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="P9" pin="1"/>
+    </net>
+    <net code="125" name="Net-(R44-Pad2)">
+      <node ref="R44" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="126" name="Net-(U4-Pad27)">
+      <node ref="U6" pin="47"/>
+      <node ref="U4" pin="27"/>
+    </net>
+    <net code="127" name="Net-(U4-Pad26)">
+      <node ref="U6" pin="46"/>
+      <node ref="U4" pin="26"/>
+    </net>
+    <net code="128" name="Net-(U4-Pad25)">
+      <node ref="U6" pin="44"/>
+      <node ref="U4" pin="25"/>
+    </net>
+    <net code="129" name="Net-(U4-Pad24)">
+      <node ref="U6" pin="43"/>
+      <node ref="U4" pin="24"/>
+    </net>
+    <net code="130" name="Net-(U4-Pad23)">
+      <node ref="U4" pin="23"/>
+      <node ref="U6" pin="41"/>
+    </net>
+    <net code="131" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="132" name="Net-(C17-Pad1)">
+      <node ref="U2" pin="10"/>
+      <node ref="R42" pin="2"/>
+      <node ref="R39" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="133" name="Net-(U4-Pad20)">
+      <node ref="U6" pin="40"/>
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="134" name="Net-(U4-Pad19)">
+      <node ref="U6" pin="38"/>
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="135" name="Net-(U4-Pad18)">
+      <node ref="U4" pin="18"/>
+      <node ref="U6" pin="37"/>
+    </net>
+    <net code="136" name="Net-(U4-Pad17)">
+      <node ref="U6" pin="36"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="137" name="Net-(U4-Pad16)">
+      <node ref="U6" pin="35"/>
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="138" name="Net-(U3-Pad46)">
+      <node ref="U3" pin="46"/>
+    </net>
+    <net code="139" name="Net-(U3-Pad44)">
+      <node ref="U3" pin="44"/>
+    </net>
+    <net code="140" name="Net-(U3-Pad43)">
+      <node ref="U3" pin="43"/>
+    </net>
+    <net code="141" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="142" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="143" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="144" name="Net-(P11-Pad29)">
+      <node ref="P11" pin="29"/>
+    </net>
+    <net code="145" name="Net-(P11-Pad11)">
+      <node ref="P11" pin="11"/>
+    </net>
+    <net code="146" name="Net-(P4-Pad2)">
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="147" name="Net-(P4-Pad1)">
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="148" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="149" name="Net-(C1-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R34" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="150" name="Net-(C1-Pad1)">
+      <node ref="R33" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="151" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+  </nets>
+</export>

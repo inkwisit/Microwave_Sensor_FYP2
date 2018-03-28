@@ -1,4 +1,4 @@
-update=Fri Mar 23 23:57:10 2018
+update=Wed Mar 28 09:47:56 2018
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,7 +62,17 @@ LibName30=valves
 LibName31=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/adc10065
 LibName32=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/sn74lvth162244
 LibName33=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/sma
-LibName34=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/ths4522
-LibName35=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/mic5317-3
-LibName36=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/mic29302
-LibName37=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/mc34063a
+LibName34=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/mic5317-3
+LibName35=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/mic29302
+LibName36=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/mc34063a
+LibName37=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/ths4522
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
