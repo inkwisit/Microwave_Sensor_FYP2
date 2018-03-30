@@ -1,0 +1,134 @@
+* /media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_PCB_Design/DAQ/DAQ.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Wed Mar 28 19:16:24 2018
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+P11  /CONN_BAK0 /CONN_BAK1 /CONN_BAK2 /CONN_BAK3 /CONN_BAK4 /CONN_BAK5 /CONN_BAK6 /CONN_BAK7 /CONN_BAK8 /CONN_BAK9 ? GND /DAC_DATA_00 /DAC_DATA_01 /DAC_DATA_02 /DAC_DATA_03 /DAC_DATA_04 /DAC_DATA_05 /DAC_DATA_06 /DAC_DATA_07 /DAC_DATA_08 /DAC_DATA_09 /DAC_DATA_10 /DAC_DATA_11 ? /PDB_FDA /ADC_CLK ? ? GND ? ? ? ? ? ? ? ? ? ? Connection with FPGA		
+U6  GND ? ? GND ? ? VDD ? ? GND ? ? ? ? GND ? ? VDD ? ? GND ? ? GND GND ? ? GND ? ? VDD ? ? GND Net-_U4-Pad16_ Net-_U4-Pad17_ Net-_U4-Pad18_ Net-_U4-Pad19_ GND Net-_U4-Pad20_ Net-_U4-Pad23_ VDD Net-_U4-Pad24_ Net-_U4-Pad25_ GND Net-_U4-Pad26_ Net-_U4-Pad27_ GND SN74LVTH162244		
+P8  Net-_P19-Pad1_ GND SMA		
+P7  Net-_P18-Pad1_ GND SMA		
+P4  ? ? SMA		
+C26  VDD GND 0.1u		
+C24  VDD GND 0.1u		
+U4  /ADC_CLOCK VDD GND /VCOM_ADC Net-_P3-Pad2_ Net-_C20-Pad1_ Net-_C21-Pad1_ Net-_C22-Pad1_ VDD VDD GND Net-_R41-Pad1_ Net-_R42-Pad1_ GND Net-_P5-Pad2_ Net-_U4-Pad16_ Net-_U4-Pad17_ Net-_U4-Pad18_ Net-_U4-Pad19_ Net-_U4-Pad20_ GND VDD Net-_U4-Pad23_ Net-_U4-Pad24_ Net-_U4-Pad25_ Net-_U4-Pad26_ Net-_U4-Pad27_ GND ADC10065		
+C19  /VCOM_ADC GND 0.1uF		
+U3  GND /ADC_CLOCK ? GND ? ? VDD /R2R_DATA_11 /R2R_DATA_10 GND /R2R_DATA_09 /R2R_DATA_08 /R2R_DATA_07 /R2R_DATA_06 GND /R2R_DATA_05 /R2R_DATA_04 VDD /R2R_DATA_03 /R2R_DATA_02 GND /R2R_DATA_01 /R2R_DATA_00 GND GND /DAC_DATA_00 /DAC_DATA_01 GND /DAC_DATA_02 /DAC_DATA_03 VDD /DAC_DATA_04 /DAC_DATA_05 GND /DAC_DATA_06 /DAC_DATA_07 /DAC_DATA_08 /DAC_DATA_09 GND /DAC_DATA_10 /DAC_DATA_11 VDD ? ? GND ? /ADC_CLK GND SN74LVTH162244		
+C29  +5VA GND 10u		
+C30  VDD GND 10u		
+P9  +5VA GND 5V-MAIN		
+U8  Net-_R52-Pad2_ VDD +5VA AMS1117-ADJ		
+R53  Net-_R52-Pad2_ GND 2K		
+U5  +5VA +5VA GND Net-_C28-Pad1_ Net-_R44-Pad2_ MIC29302		
+R44  Net-_R43-Pad2_ Net-_R44-Pad2_ 220		
+R45  Net-_R44-Pad2_ GND 180		
+C28  Net-_C28-Pad1_ GND 100uF		
+P6  Net-_C28-Pad1_ VAA FDA_DIRECT		
+R11  Net-_R10-Pad2_ Net-_R11-Pad2_ 1K		
+R12  Net-_R11-Pad2_ Net-_R12-Pad2_ 1K		
+R13  Net-_R12-Pad2_ Net-_R13-Pad2_ 1K		
+R14  Net-_R13-Pad2_ Net-_R14-Pad2_ 1K		
+R15  Net-_R14-Pad2_ Net-_R15-Pad2_ 1K		
+R16  Net-_R15-Pad2_ Net-_R16-Pad2_ 1K		
+R17  Net-_R16-Pad2_ Net-_R17-Pad2_ 1K		
+R18  Net-_R17-Pad2_ Net-_R18-Pad2_ 1K		
+R6  Net-_R6-Pad1_ Net-_R21-Pad2_ 1K		
+R8  Net-_R21-Pad2_ Net-_R22-Pad2_ 1K		
+R9  Net-_R22-Pad2_ Net-_R10-Pad1_ 1K		
+R10  Net-_R10-Pad1_ Net-_R10-Pad2_ 1K		
+R21  /R2R_DATA_11 Net-_R21-Pad2_ 2K		
+R22  /R2R_DATA_10 Net-_R22-Pad2_ 2K		
+R23  /R2R_DATA_09 Net-_R10-Pad1_ 2K		
+R24  /R2R_DATA_08 Net-_R10-Pad2_ 2K		
+R25  /R2R_DATA_07 Net-_R11-Pad2_ 2K		
+R26  /R2R_DATA_06 Net-_R12-Pad2_ 2K		
+R27  /R2R_DATA_05 Net-_R13-Pad2_ 2K		
+R28  /R2R_DATA_04 Net-_R14-Pad2_ 2K		
+R29  /R2R_DATA_03 Net-_R15-Pad2_ 2K		
+R30  /R2R_DATA_02 Net-_R16-Pad2_ 2K		
+R31  /R2R_DATA_01 Net-_R17-Pad2_ 2K		
+R32  /R2R_DATA_00 Net-_R18-Pad2_ 2K		
+R7  Net-_R18-Pad2_ GND 2K		
+U1  Net-_C25-Pad2_ Net-_C25-Pad1_ Net-_R6-Pad1_ GND /VCOM_ADC /VCOM /VCOM +12VA LM358		
+R5  GND Net-_R2-Pad1_ 2K		
+R1  Net-_R1-Pad1_ Net-_C25-Pad2_ 4.7K		
+P1  Net-_C25-Pad2_ GND SMA		
+P3  GND Net-_P3-Pad2_ VDD FS_SEL_JUMPER		
+P5  VDD Net-_P5-Pad2_ GND MODE_JUMPER		
+C20  Net-_C20-Pad1_ GND 0.1u		
+C21  Net-_C21-Pad1_ GND 0.1u		
+C22  Net-_C22-Pad1_ GND 0.1u		
+P10  /CONN_BAK0 /CONN_BAK1 /CONN_BAK2 /CONN_BAK3 /CONN_BAK4 /CONN_BAK5 /CONN_BAK6 /CONN_BAK7 /CONN_BAK8 /CONN_BAK9 EXTRA_CONN_HEADERS		
+C27  +5VA GND 0.1uF		
+U2  /PDB_FDA Net-_C2-Pad2_ Net-_C3-Pad2_ /VCOM /PDB_FDA Net-_C11-Pad2_ Net-_C12-Pad2_ /VCOM VAA Net-_C17-Pad1_ Net-_C18-Pad1_ GND VAA Net-_C9-Pad1_ Net-_C8-Pad1_ GND THS4522		
+C7  GND VAA 0.1u		
+C6  GND VAA 0.01u		
+C15  GND VAA 0.01u		
+C16  GND VAA 0.1u		
+R39  Net-_C17-Pad1_ Net-_C12-Pad2_ 10K		
+R38  Net-_C18-Pad1_ Net-_C11-Pad2_ 10K		
+R36  Net-_C12-Pad2_ Net-_C9-Pad1_ 220		
+R35  Net-_C11-Pad2_ Net-_C8-Pad1_ 220		
+R34  Net-_C9-Pad1_ Net-_C1-Pad2_ 2K		
+R33  Net-_C8-Pad1_ Net-_C1-Pad1_ 2K		
+C2  Net-_C2-Pad1_ Net-_C2-Pad2_ 270p		
+R20  Net-_C3-Pad2_ Net-_C1-Pad2_ 1K		
+R19  Net-_C2-Pad2_ Net-_C1-Pad1_ 1K		
+R4  Net-_C1-Pad2_ /V_SIG_NEG 2K		
+R3  Net-_C1-Pad1_ /V_SIG_POS 2K		
+C4  /VCOM GND 0.01u		
+C1  Net-_C1-Pad1_ Net-_C1-Pad2_ 270p		
+C8  Net-_C8-Pad1_ Net-_C2-Pad1_ 270p		
+C3  Net-_C3-Pad1_ Net-_C3-Pad2_ 270p		
+C9  Net-_C9-Pad1_ Net-_C3-Pad1_ 270p		
+C13  /VCOM GND 0.1u		
+C14  /VCOM GND 0.01u		
+R41  Net-_R41-Pad1_ Net-_C18-Pad1_ 50		
+R42  Net-_R42-Pad1_ Net-_C17-Pad1_ 50		
+C5  /VCOM GND 0.1u		
+R37  Net-_C18-Pad1_ Net-_C11-Pad2_ 10K		
+C11  Net-_C11-Pad1_ Net-_C11-Pad2_ 180p		
+C18  Net-_C18-Pad1_ Net-_C11-Pad1_ 180p		
+C12  Net-_C12-Pad1_ Net-_C12-Pad2_ 180p		
+C17  Net-_C17-Pad1_ Net-_C12-Pad1_ 180p		
+R40  Net-_C17-Pad1_ Net-_C12-Pad2_ 10K		
+R52  VDD Net-_R52-Pad2_ 1.5K		
+R43  Net-_C28-Pad1_ Net-_R43-Pad2_ 220		
+U7  /V_SIG_POS Net-_C33-Pad2_ Net-_P18-Pad1_ -12VA Net-_P19-Pad1_ Net-_C34-Pad2_ /V_SIG_NEG +12VA AD812		
+R48  Net-_R48-Pad1_ Net-_C33-Pad2_ 2.7k		
+R46  Net-_C33-Pad2_ GND 220		
+R47  Net-_C34-Pad2_ GND 220		
+R49  Net-_R49-Pad1_ Net-_C34-Pad2_ 2.7K		
+P2  Net-_L1-Pad1_ GND Net-_L2-Pad2_ TPS65131_EVM		
+R51  /V_SIG_NEG Net-_R49-Pad1_ 2.7K		
+R50  /V_SIG_POS Net-_R48-Pad1_ 2.7K		
+L2  -12VA Net-_L2-Pad2_ 10u		
+L1  Net-_L1-Pad1_ +12VA 10u		
+C10  +12VA GND 100u		
+C23  GND -12VA 100u		
+R2  Net-_R2-Pad1_ Net-_C25-Pad1_ 1K		
+R55  VAA /PDB_FDA 220		
+P16  Net-_C18-Pad1_ ADC_STAT		
+P17  Net-_C17-Pad1_ ADC_STAT		
+P14  Net-_C8-Pad1_ ADC_STAT		
+P15  Net-_C9-Pad1_ ADC_STAT		
+P12  /V_SIG_POS ADC_STAT		
+P13  /V_SIG_NEG ADC_STAT		
+C32  VDD GND 4.7u		
+C31  VDD GND 4.7u		
+R54  Net-_C25-Pad1_ Net-_R1-Pad1_ 2.7K		
+C25  Net-_C25-Pad1_ Net-_C25-Pad2_ 180p		
+C35  /V_SIG_POS Net-_C33-Pad1_ 180p		
+C36  /V_SIG_NEG Net-_C34-Pad1_ 180p		
+C34  Net-_C34-Pad1_ Net-_C34-Pad2_ 270p		
+C33  Net-_C33-Pad1_ Net-_C33-Pad2_ 270p		
+P18  Net-_P18-Pad1_ ADC_STAT		
+P19  Net-_P19-Pad1_ ADC_STAT		
+C37  GND -12VA 0.1u		
+C38  GND -12VA 0.1u		
+P20  /VCOM VCOM_CHECK		
+P21  /VCOM_ADC VCOM_CHECK		
+
+.end
