@@ -1,0 +1,240 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:hmc38x
+LIBS:adc10065
+LIBS:lt5560
+LIBS:mc34063a
+LIBS:mic5317-3
+LIBS:mic29302
+LIBS:sma
+LIBS:sn74lvth162244
+LIBS:ths4522
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HMC38X U?
+U 1 1 5ABF0AEC
+P 5850 4450
+F 0 "U?" H 5850 4650 60  0000 C CNN
+F 1 "HMC38X" H 5800 3850 60  0000 C CNN
+F 2 "" H 5850 4400 60  0000 C CNN
+F 3 "" H 5850 4400 60  0000 C CNN
+	1    5850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMA P?
+U 1 1 5ABF0B67
+P 7850 4200
+F 0 "P?" H 7860 4320 50  0000 C CNN
+F 1 "SMA" V 7960 4140 50  0000 C CNN
+F 2 "" H 7850 4200 50  0000 C CNN
+F 3 "" H 7850 4200 50  0000 C CNN
+	1    7850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4200 7700 4200
+$Comp
+L GND #PWR?
+U 1 1 5ABF0C40
+P 7850 4500
+F 0 "#PWR?" H 7850 4250 50  0001 C CNN
+F 1 "GND" H 7850 4350 50  0000 C CNN
+F 2 "" H 7850 4500 50  0000 C CNN
+F 3 "" H 7850 4500 50  0000 C CNN
+	1    7850 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 4400 7850 4500
+$Comp
+L CONN_01X02 P?
+U 1 1 5ABF0C71
+P 6050 2350
+F 0 "P?" H 6050 2500 50  0000 C CNN
+F 1 "CONN_01X02" V 6150 2350 50  0000 C CNN
+F 2 "" H 6050 2350 50  0000 C CNN
+F 3 "" H 6050 2350 50  0000 C CNN
+	1    6050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 2550 6000 2900
+Wire Wire Line
+	6000 2900 6000 3150
+Wire Wire Line
+	6000 3150 6000 3550
+$Comp
+L GND #PWR?
+U 1 1 5ABF0CC6
+P 6100 2700
+F 0 "#PWR?" H 6100 2450 50  0001 C CNN
+F 1 "GND" H 6100 2550 50  0000 C CNN
+F 2 "" H 6100 2700 50  0000 C CNN
+F 3 "" H 6100 2700 50  0000 C CNN
+	1    6100 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2550 6100 2700
+$Comp
+L CP C?
+U 1 1 5ABF0CF4
+P 5750 2900
+F 0 "C?" H 5775 3000 50  0000 L CNN
+F 1 "4.7u" H 5775 2800 50  0000 L CNN
+F 2 "" H 5788 2750 50  0000 C CNN
+F 3 "" H 5750 2900 50  0000 C CNN
+	1    5750 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5ABF0D3D
+P 5500 2900
+F 0 "#PWR?" H 5500 2650 50  0001 C CNN
+F 1 "GND" H 5500 2750 50  0000 C CNN
+F 2 "" H 5500 2900 50  0000 C CNN
+F 3 "" H 5500 2900 50  0000 C CNN
+	1    5500 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 2900 6000 2900
+Connection ~ 6000 2900
+Wire Wire Line
+	5600 2900 5500 2900
+$Comp
+L C C?
+U 1 1 5ABF0D8C
+P 6250 3150
+F 0 "C?" H 6275 3250 50  0000 L CNN
+F 1 "0.01u" H 6275 3050 50  0000 L CNN
+F 2 "" H 6288 3000 50  0000 C CNN
+F 3 "" H 6250 3150 50  0000 C CNN
+	1    6250 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 3150 6000 3150
+Connection ~ 6000 3150
+$Comp
+L GND #PWR?
+U 1 1 5ABF0DD0
+P 6500 3150
+F 0 "#PWR?" H 6500 2900 50  0001 C CNN
+F 1 "GND" H 6500 3000 50  0000 C CNN
+F 2 "" H 6500 3150 50  0000 C CNN
+F 3 "" H 6500 3150 50  0000 C CNN
+	1    6500 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3150 6400 3150
+$Comp
+L SMA P?
+U 1 1 5ABF0E58
+P 4100 3450
+F 0 "P?" H 4110 3570 50  0000 C CNN
+F 1 "SMA" V 4210 3390 50  0000 C CNN
+F 2 "" H 4100 3450 50  0000 C CNN
+F 3 "" H 4100 3450 50  0000 C CNN
+	1    4100 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3550 5800 3450
+Wire Wire Line
+	5800 3450 4250 3450
+$Comp
+L GND #PWR?
+U 1 1 5ABF0F18
+P 4100 3750
+F 0 "#PWR?" H 4100 3500 50  0001 C CNN
+F 1 "GND" H 4100 3600 50  0000 C CNN
+F 2 "" H 4100 3750 50  0000 C CNN
+F 3 "" H 4100 3750 50  0000 C CNN
+	1    4100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3650 4100 3750
+NoConn ~ 5900 3550
+NoConn ~ 6100 3550
+NoConn ~ 6550 4000
+NoConn ~ 6550 4100
+NoConn ~ 6550 4400
+NoConn ~ 6550 4500
+NoConn ~ 6100 4950
+NoConn ~ 6000 4950
+NoConn ~ 5900 4950
+NoConn ~ 5800 4950
+NoConn ~ 5700 4950
+NoConn ~ 5600 4950
+NoConn ~ 5150 4500
+NoConn ~ 5150 4400
+NoConn ~ 5150 4300
+NoConn ~ 5150 4200
+NoConn ~ 5150 4100
+NoConn ~ 5150 4000
+NoConn ~ 5600 3550
+NoConn ~ 5700 3550
+$Comp
+L GND #PWR?
+U 1 1 5ABF10E5
+P 6650 4300
+F 0 "#PWR?" H 6650 4050 50  0001 C CNN
+F 1 "GND" H 6650 4150 50  0000 C CNN
+F 2 "" H 6650 4300 50  0000 C CNN
+F 3 "" H 6650 4300 50  0000 C CNN
+	1    6650 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 4300 6550 4300
+Text Notes 6750 4150 0    60   ~ 0
+Coplanar waveguide
+Text Notes 4500 3400 0    60   ~ 0
+Coplanar waveguide
+$EndSCHEMATC
