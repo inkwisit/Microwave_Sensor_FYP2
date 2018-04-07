@@ -1,4 +1,4 @@
-update=Sat Mar 31 09:36:22 2018
+update=Thu Apr  5 11:02:58 2018
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,13 @@ LibName35=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/m
 LibName36=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/sma
 LibName37=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/sn74lvth162244
 LibName38=/media/subha/Study Materials/Git/Microwave_Sensor_FYP2/KiCAD_Library/ths4522
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

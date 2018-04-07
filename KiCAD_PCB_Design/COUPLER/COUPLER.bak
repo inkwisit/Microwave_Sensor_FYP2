@@ -1,0 +1,211 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:sma
+LIBS:COUPLER-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SMA P4
+U 1 1 5AC7B6A3
+P 6900 3450
+F 0 "P4" H 6910 3570 50  0000 C CNN
+F 1 "SMA" V 7010 3390 50  0000 C CNN
+F 2 "DAQ:SMA" H 6900 3450 50  0001 C CNN
+F 3 "" H 6900 3450 50  0000 C CNN
+	1    6900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMA P1
+U 1 1 5AC7B71F
+P 4750 3450
+F 0 "P1" H 4760 3570 50  0000 C CNN
+F 1 "SMA" V 4860 3390 50  0000 C CNN
+F 2 "DAQ:SMA" H 4750 3450 50  0001 C CNN
+F 3 "" H 4750 3450 50  0000 C CNN
+	1    4750 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SMA P3
+U 1 1 5AC7B74A
+P 6450 4200
+F 0 "P3" H 6460 4320 50  0000 C CNN
+F 1 "SMA" V 6560 4140 50  0000 C CNN
+F 2 "DAQ:SMA" H 6450 4200 50  0001 C CNN
+F 3 "" H 6450 4200 50  0000 C CNN
+	1    6450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMA P2
+U 1 1 5AC7B788
+P 5250 4200
+F 0 "P2" H 5260 4320 50  0000 C CNN
+F 1 "SMA" V 5360 4140 50  0000 C CNN
+F 2 "DAQ:SMA" H 5250 4200 50  0001 C CNN
+F 3 "" H 5250 4200 50  0000 C CNN
+	1    5250 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5AC7B8C7
+P 6450 4500
+F 0 "#PWR01" H 6450 4250 50  0001 C CNN
+F 1 "GND" H 6450 4350 50  0000 C CNN
+F 2 "" H 6450 4500 50  0000 C CNN
+F 3 "" H 6450 4500 50  0000 C CNN
+	1    6450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5AC7B8EB
+P 5250 4500
+F 0 "#PWR02" H 5250 4250 50  0001 C CNN
+F 1 "GND" H 5250 4350 50  0000 C CNN
+F 2 "" H 5250 4500 50  0000 C CNN
+F 3 "" H 5250 4500 50  0000 C CNN
+	1    5250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5AC7B917
+P 4750 3750
+F 0 "#PWR03" H 4750 3500 50  0001 C CNN
+F 1 "GND" H 4750 3600 50  0000 C CNN
+F 2 "" H 4750 3750 50  0000 C CNN
+F 3 "" H 4750 3750 50  0000 C CNN
+	1    4750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5AC7B943
+P 6900 3750
+F 0 "#PWR04" H 6900 3500 50  0001 C CNN
+F 1 "GND" H 6900 3600 50  0000 C CNN
+F 2 "" H 6900 3750 50  0000 C CNN
+F 3 "" H 6900 3750 50  0000 C CNN
+	1    6900 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3450 6750 3450
+Wire Wire Line
+	6900 3650 6900 3750
+Wire Wire Line
+	4750 3650 4750 3750
+Wire Wire Line
+	5250 4400 5250 4500
+Wire Wire Line
+	6450 4400 6450 4500
+Wire Wire Line
+	5400 4200 5550 4200
+Wire Wire Line
+	5550 4200 5550 3500
+Wire Wire Line
+	5550 3500 6150 3500
+Wire Wire Line
+	6150 3500 6150 4200
+Wire Wire Line
+	6150 4200 6300 4200
+Text Notes 5650 3400 0    60   ~ 0
+Main Line\n
+Text Notes 5650 3600 0    60   ~ 0
+Aux Line\n
+$Comp
+L SMA P?
+U 1 1 5AC7C2DB
+P 6900 2600
+F 0 "P?" H 6910 2720 50  0000 C CNN
+F 1 "SMA" V 7010 2540 50  0000 C CNN
+F 2 "DAQ:SMA" H 6900 2600 50  0001 C CNN
+F 3 "" H 6900 2600 50  0000 C CNN
+	1    6900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMA P?
+U 1 1 5AC7C2E1
+P 4750 2600
+F 0 "P?" H 4760 2720 50  0000 C CNN
+F 1 "SMA" V 4860 2540 50  0000 C CNN
+F 2 "DAQ:SMA" H 4750 2600 50  0001 C CNN
+F 3 "" H 4750 2600 50  0000 C CNN
+	1    4750 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2600 6750 2600
+Text Notes 5650 2550 0    60   ~ 0
+Test Line
+$Comp
+L GND #PWR?
+U 1 1 5AC7C305
+P 4750 2900
+F 0 "#PWR?" H 4750 2650 50  0001 C CNN
+F 1 "GND" H 4750 2750 50  0000 C CNN
+F 2 "" H 4750 2900 50  0000 C CNN
+F 3 "" H 4750 2900 50  0000 C CNN
+	1    4750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AC7C322
+P 6900 2900
+F 0 "#PWR?" H 6900 2650 50  0001 C CNN
+F 1 "GND" H 6900 2750 50  0000 C CNN
+F 2 "" H 6900 2900 50  0000 C CNN
+F 3 "" H 6900 2900 50  0000 C CNN
+	1    6900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2800 4750 2900
+Wire Wire Line
+	6900 2800 6900 2900
+$EndSCHEMATC
